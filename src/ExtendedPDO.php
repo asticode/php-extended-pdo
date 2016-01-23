@@ -1,9 +1,9 @@
 <?php
-namespace Molotov\ExtendedPDO;
+namespace Asticode\ExtendedPDO;
 
 use Aura\Sql\ExtendedPdo as AuraExtendedPdo;
 
-class ExtendedPdo extends AuraExtendedPdo
+class ExtendedPDO extends AuraExtendedPdo
 {
     // Attributes
     private $aPostConnectCommands;
