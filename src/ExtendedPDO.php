@@ -39,13 +39,4 @@ class ExtendedPDO extends AuraExtendedPdo
             $this->query($sCommand);
         }
     }
-
-
-    /**
-     * @return \PDO
-     */
-    public function getPdo()
-    {
-        return parent::getPdo();
-    }
 }
